@@ -16,7 +16,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="player in players">
+        <tr v-for="(player, index) in players" :key="player.index">
           <th scope="row">{{ player.number }}</th>
           <td>{{ player.name }}</td>
           <td>{{ player.position }}</td>
@@ -41,7 +41,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="coach in coaches">
+        <tr v-for="(coach, index) in coaches" :key="coach.index">
           <td>{{ coach.name }}</td>
           <td>{{ coach.position }}</td>
         </tr>
@@ -90,4 +90,3 @@ td {
   font-size: 0.9em;
 }
 </style>
-

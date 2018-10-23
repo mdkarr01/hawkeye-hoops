@@ -14,7 +14,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="game in games">
+        <tr v-for="(game, index) in games" :key="game.index">
           <th scope="row">{{ game.date }}</th>
           <td>{{ game.time }}</td>
           <td>{{ game.opponent }}</td>
@@ -65,4 +65,3 @@ td {
   font-size: 0.9em;
 }
 </style>
-
