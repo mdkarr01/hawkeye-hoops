@@ -415,6 +415,62 @@ export default {
           location: 'Piscataway, NJ',
           details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
         },
+        {
+          date: 'Feb 10th',
+          time: '5:30',
+          opponent: 'Northwestern',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 19th',
+          time: '7:00',
+          opponent: 'Maryland',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 22nd',
+          time: '8:00',
+          opponent: 'Indiana',
+          location: 'Iowa City, IA',
+          details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 26th',
+          time: '6:00',
+          opponent: 'Ohio State',
+          location: 'Columbus, OH',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'March 2nd',
+          time: '4:00',
+          opponent: 'Penn State',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Mar 7th',
+          time: '6:00',
+          opponent: 'Wisconsin',
+          location: 'Madison, WI',
+          details: 'TV: ESPN/ESPN2 RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Mar 10th',
+          time: '1:00',
+          opponent: 'Nebraska',
+          location: 'Lincoln, NE',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Mar 13-17th',
+          time: 'TBD',
+          opponent: 'Big Ten Tournament',
+          location: 'Chicago, IL',
+          details: 'TBD'
+        },
       ]
     };
   }
