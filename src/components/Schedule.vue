@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="table table table-sm">
+    <table class="table table-sm">
       <thead>
         <th class="header" colspan="7">2018-19 Iowa Hawkeye Basketball Schedule</th>
       </thead>
