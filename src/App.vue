@@ -337,6 +337,62 @@ export default {
           opponent: 'Purdue',
           location: 'West Lafayette, IN',
           details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 6th',
+          time: '2:15/4:00',
+          opponent: 'Nebraska',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 9th',
+          time: '8:00',
+          opponent: 'Northwestern',
+          location: 'Evanston, ILL',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 12th',
+          time: '1:30',
+          opponent: 'Ohio State',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 16th',
+          time: '6:00',
+          opponent: 'Penn State',
+          location: 'University Park, PA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 20th',
+          time: 'Noon',
+          opponent: 'Illinois',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 24th',
+          time: '6:00',
+          opponent: 'Michigan State',
+          location: 'Iowa City, IA',
+          details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Jan 27th',
+          time: '4:00',
+          opponent: 'Minnesota',
+          location: 'Minneapolis, MN',
+          details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 1st',
+          time: '6:00',
+          opponent: 'Michigan',
+          location: 'Iowa City, IA',
+          details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
         }
       ]
     };
