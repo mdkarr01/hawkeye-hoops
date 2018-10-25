@@ -393,7 +393,28 @@ export default {
           opponent: 'Michigan',
           location: 'Iowa City, IA',
           details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
-        }
+        },
+        {
+          date: 'Feb 7th',
+          time: '8:00',
+          opponent: 'Indiana',
+          location: 'Bloomington, IN',
+          details: 'TV: ESPN/ESPN2 RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 10th',
+          time: '5:30',
+          opponent: 'Northwestern',
+          location: 'Iowa City, IA',
+          details: 'TV: BTN RADIO: HAWKEYE RADIO NETWORK'
+        },
+        {
+          date: 'Feb 16th',
+          time: '5:00',
+          opponent: 'Rutgers',
+          location: 'Piscataway, NJ',
+          details: 'TV: FS1 RADIO: HAWKEYE RADIO NETWORK'
+        },
       ]
     };
   }
