@@ -5,9 +5,16 @@
       <h3 @click="selectedComponent='appRoster'">Roster</h3>
     </div>
 
+  <transition
+  appear
+  mode: out-in
+  enter-active-class="animated fade-in"
+  leave-active-class="animated fade-out"
+  >
    <component :players="players" :coaches="coaches" :games="games" :is="selectedComponent">
         <p>This is content</p>
    </component>
+  </transition>
   </div>
 </template>
 
