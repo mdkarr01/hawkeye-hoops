@@ -8,8 +8,8 @@
   <transition
   appear
   mode: out-in
-  enter-active-class="animated fade-in"
-  leave-active-class="animated fade-out"
+  enter-active-class="animated fadeIn"
+  leave-active-class="animated fadeOut"
   >
    <component :players="players" :coaches="coaches" :games="games" :is="selectedComponent">
         <p>This is content</p>
