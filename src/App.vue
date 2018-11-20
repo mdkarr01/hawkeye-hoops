@@ -5,12 +5,7 @@
       <h3 @click="selectedComponent='appRoster'">Roster</h3>
     </div>
 
-  <transition
-  appear
-  mode: out-in
-  enter-active-class="animated fadeIn"
-  leave-active-class="animated fadeOut"
-  >
+<transition name="fade" mode="out-in">
    <component :players="players" :coaches="coaches" :games="games" :is="selectedComponent">
         <p>This is content</p>
    </component>
@@ -485,6 +480,20 @@ export default {
 </script>
 
 <style>
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: opacity 1s;
+}
+.fade-leave {
+  /* opacity: 1; */
+  /* No reason to set opacity. It is 1 by default */
+}
+.fade-leave-active {
+  transition: opacity 1s;
+  opacity: 0;
+}
 body {
   height: 100vh;
   width: 100%;
