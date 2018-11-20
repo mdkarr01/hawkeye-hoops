@@ -4,7 +4,9 @@
       <h3 @click="selectedComponent='appSchedule'">Schedule</h3>
       <h3 @click="selectedComponent='appRoster'">Roster</h3>
     </div>
-
+    <div>
+      <h1>{{ headline }}</h1>
+    </div>
 <transition name="fade" mode="out-in">
    <component :players="players" :coaches="coaches" :games="games" :is="selectedComponent">
         <p>This is content</p>
@@ -24,6 +26,7 @@ export default {
 
   data() {
     return {
+      headline: 'This is a headline',
       selectedComponent: '',
       players: [
         {
